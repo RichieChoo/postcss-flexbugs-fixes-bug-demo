@@ -3,7 +3,7 @@ const postcss = require("postcss");
 const plugins = [
     require('postcss-safe-parser'),
     require('postcss-flexbugs-fixes')({
-        bug4: false, bug6: false, bug81a: false
+        bug4: false, bug6: true, bug81a: false
     }),
     require('postcss-preset-env')({
         autoprefixer: {},
@@ -14,7 +14,7 @@ const plugins = [
 const code = {
     less: `@vm:10px;
     .test{
-        flex: 0 1 21 / @vm
+        flex: 0 1 21 * @vm
     }
     `,
     scss: `$vm:10px;
@@ -44,3 +44,4 @@ const run = (type) =>
     await run("scss");
     await run("sass");
 })()
+
