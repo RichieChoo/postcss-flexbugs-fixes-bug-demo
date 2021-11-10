@@ -1,0 +1,29 @@
+{
+  "name": "postcss-flexbugs-fixes-bug-demo",
+  "version": "1.0.0",
+  "description": "postcss-flexbugs-fixes bug demo",
+  "main": "index.js",
+  "dependencies": {
+    "postcss": "^8.3.11",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-less": "^5.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-safe-parser": "^6.0.0",
+    "postcss-sass": "^0.5.0",
+    "postcss-scss": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichieChoo/postcss-flexbugs-fixes-bug-demo.git"
+  },
+  "author": "RichieChoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RichieChoo/postcss-flexbugs-fixes-bug-demo/issues"
+  },
+  "homepage": "https://github.com/RichieChoo/postcss-flexbugs-fixes-bug-demo#readme"
+}
