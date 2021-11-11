@@ -2,9 +2,7 @@ const postcss = require("postcss");
 
 const plugins = [
     require('postcss-safe-parser'),
-    require('postcss-flexbugs-fixes')({
-        bug4: false, bug6: true, bug81a: false
-    }),
+    require('postcss-flexbugs-fixes'),
     require('postcss-preset-env')({
         autoprefixer: {},
         stage: 3,
